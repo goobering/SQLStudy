@@ -1,0 +1,12 @@
+CREATE TABLE Lesson (
+	Id INT IDENTITY(1, 1) NOT NULL,
+	SubjectName VARCHAR(50) NOT NULL,
+	StartDateTime DATETIME NOT NULL,
+	DurationMins INT NOT NULL,
+	TeacherId INT NOT NULL,
+
+	CONSTRAINT PK_Lesson
+		PRIMARY KEY(Id),
+	CONSTRAINT FK_Lesson_Teacher
+		FOREIGN KEY(TeacherId) REFERENCES Teacher(Id)
+);

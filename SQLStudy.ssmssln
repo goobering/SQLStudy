@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CreateTownTables", "CreateTownTables\CreateTownTables.ssmssqlproj", "{7DB816CE-9CAF-4E4F-AAAF-8F78DF0609B5}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "QueryTown", "QueryTown\QueryTown.ssmssqlproj", "{3E2AE77A-638A-48C6-9C4E-CC1F3A7C5438}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SeedTownTables", "SeedTownTables\SeedTownTables.ssmssqlproj", "{F72194E3-8864-40A7-B8F7-8E2FE581861B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C489214-72B0-400E-8F8D-266D8A1881E2}.Default|Default.ActiveCfg = Default
+		{7DB816CE-9CAF-4E4F-AAAF-8F78DF0609B5}.Default|Default.ActiveCfg = Default
+		{3E2AE77A-638A-48C6-9C4E-CC1F3A7C5438}.Default|Default.ActiveCfg = Default
+		{F72194E3-8864-40A7-B8F7-8E2FE581861B}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

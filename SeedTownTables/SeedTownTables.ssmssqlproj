@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SeedTownTables">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-JVHV6PO:DESKTOP-JVHV6PO\goobe">
+          <Created>2019-05-24T12:00:29.6456209+01:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-JVHV6PO</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="SeedAddress.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SeedAddress.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SeedAddressesForSchools.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SeedAddressesForSchools.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SeedPerson.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SeedPerson.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SeedPersonAddress.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SeedPersonAddress.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SeedSchoolAddress.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SeedSchoolAddress.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

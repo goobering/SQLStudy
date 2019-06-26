@@ -1,0 +1,13 @@
+CREATE TABLE Student(
+	Id INT NOT NULL,
+	ClassId INT,
+
+	CONSTRAINT PK_Student
+		PRIMARY KEY(Id),
+	CONSTRAINT FK_Student_Person
+		FOREIGN KEY(Id) REFERENCES Person(Id),
+	CONSTRAINT FK_Student_Class
+		FOREIGN KEY(ClassId)
+		REFERENCES Class(Id)
+		ON DELETE CASCADE
+);

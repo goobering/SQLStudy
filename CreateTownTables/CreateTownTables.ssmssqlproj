@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CreateTownTables">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-JVHV6PO:DESKTOP-JVHV6PO\goobe">
+          <Created>2019-05-24T11:57:04.5115282+01:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-JVHV6PO</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>SQLStudy</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CreateAddressTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateAddressTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateClassTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateClassTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateLessonTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateLessonTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreatePersonAddressTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreatePersonAddressTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreatePersonAddressView.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CreatePersonAddressView.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreatePersonTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreatePersonTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateSchoolAddressTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateSchoolAddressTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateSchoolTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateSchoolTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateStudentTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateStudentTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateTeacherTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTeacherTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateYearGroupTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JVHV6PO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-JVHV6PO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateYearGroupTable.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

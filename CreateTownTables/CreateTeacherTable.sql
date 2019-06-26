@@ -1,0 +1,11 @@
+CREATE TABLE Teacher(
+	Id INT NOT NULL,
+	SchoolId INT NOT NULL,
+
+	CONSTRAINT PK_Teacher
+		PRIMARY KEY(Id),
+	CONSTRAINT FK_Teacher_Person
+		FOREIGN KEY(Id) REFERENCES Person(Id),
+	CONSTRAINT FK_Teacher_School
+		FOREIGN KEY(SchoolId) REFERENCES School(Id)
+);
